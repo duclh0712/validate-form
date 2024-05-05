@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <form action="POST" id="form-1">
+            <h2 class="form__h2">Thành viên đăng ký</h2>
+            <p class="form__title">Cùng nhau học lập trình tại F8</p>
+
+            <div class="form__group">
+                <label for="name"> Tên đầy đủ</label>
+                <input type="text" name="name" id="name" placeholder="VD: Lê Đức">
+                <span class="form__mesage "></span>
+            </div>
+
+            <div class="form__group">
+                <label for="email"> Email</label>
+                <input type="email" name="email" id="email" placeholder="VD: abc@gmail.com">
+                <span class="form__mesage"></span>
+            </div>
+            <div class="form__group">
+                <label for="password"> Mật khẩu</label>
+                <input type="password" name="password" id="password" >
+                <span class="form__mesage"></span>
+            </div>
+            <div class="form__group">
+                <label for="password__confirm"> Mật khẩu</label>
+                <input type="password" name="password__confirm" id="password__confirm" >
+                <span class="form__mesage"></span>
+            </div>
+
+            <div class="form__group">
+                <button class="form__btn">Đăng ký</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
